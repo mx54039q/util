@@ -2,6 +2,7 @@
 import numpy as np
 from matplotlib import pyplot as plt
 
+
 """
    Draw Chart/Diagram/Graph/ ...
 """
@@ -9,8 +10,9 @@ def plt.legend():
 """
     legend
 """
-    plot(x,c,label='test')
-    legend(loc='upper left')
+    first, = plt.plot(x,c,label='test')
+    plt.legend(first, ['first'], loc='upper left')
+    
 def zhexiantu():
 """
     sub:下标             score:数值        color:线的颜色

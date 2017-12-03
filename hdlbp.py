@@ -2,7 +2,6 @@
 import cv2
 import numpy as np
 from skimage.feature import local_binary_pattern as lbp
-import pandas as pd
 
 """
    High Dimension Local Binary Pattern.   
@@ -59,6 +58,7 @@ def hdlbp(img,P,R,cell_size,fmt='default'):
     #lbpTrain = np.hstack((lbpTrain_1,lbpTrain_2,lbpTrain_3))
     
     return lbpTrain
+    
     
 def calHistogram(img, cell_size=4):
     """
