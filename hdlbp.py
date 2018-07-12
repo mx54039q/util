@@ -7,7 +7,7 @@ from skimage.feature import local_binary_pattern as lbp
    High Dimension Local Binary Pattern.   
 """
 
-def hdlbp(img,P,R,cell_size,fmt='default'):
+def hdlbp(img,P=8,R=2,cell_size=4,fmt='default'):
     """
     Parameters
     ----------
